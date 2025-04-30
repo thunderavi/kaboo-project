@@ -1,12 +1,12 @@
 import React from 'react';
-import Home from './components/Home'; // Ensure you're importing Home from the correct path
+import Home from './components/Home'; // Default import
 
-function App() {
+const App = () => {
   return (
     <div>
-      <Home />
+      <Home /> {/* Using Home component */}
     </div>
   );
-}
+};
 
 export default App;
