@@ -11,7 +11,8 @@ const Home = () => {
           <br />
           your city{' '}
           <span className="highlighted-text">
-            and accelerate your residential project sales
+            and accelerate your <br />
+            residential project sales
           </span>
         </h1>
         <p className="description">
@@ -20,7 +21,7 @@ const Home = () => {
           and automate commission calculation - all in one place
         </p>
         <img
-          src="https://storage.googleapis.com/a1aa/image/faf98a5f-53db-41f3-e08d-0b56ab3d6dcd.jpg"
+          src="../image1.png"
           alt="Illustration"
           className="illustration"
         />
